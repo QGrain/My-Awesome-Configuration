@@ -1,0 +1,14 @@
+[Unit]
+Description=My jupyter-notebook service
+After=network.target
+
+[Service]
+Type=simple
+User=qgrain
+Group=qgrain
+ExecStart=/home/qgrain/miniconda3/bin/jupyter-notebook
+Restart=on-failure
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target
