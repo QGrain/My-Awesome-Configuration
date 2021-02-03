@@ -1,0 +1,19 @@
+set number
+set showmode
+set showcmd
+set autoread
+set mouse=a
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set softtabstop=4
+
+set t_Co=256
+set termencoding=utf-8
+set fileformats=unix
+set encoding=prc
+set wildmenu
+set wildmode=longest:list,full
+syntax on
+filetype indent on
