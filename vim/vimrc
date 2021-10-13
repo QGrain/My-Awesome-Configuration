@@ -1,6 +1,9 @@
 set number
 set showmode
 set showcmd
+set showmatch
+set hlsearch
+set incsearch
 set autoread
 set mouse=a
 
