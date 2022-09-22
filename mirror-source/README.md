@@ -6,11 +6,13 @@ Mirror source is a technique for conveient downloading. However, sometimes it is
 
 **Therefore, here comes a tool to manage all the mirrors that are suitable for your platform and location.**
 
-## Install
-to be completed
-
 ## Usage
-to be completed
+```bash
+# clone this repo
+cd My-Awesome-Configuration/mirror-source
+./change-mirror-source.sh
+
+```
 
 ## Todo
-- [ ] Update README
+- [x] Update README
